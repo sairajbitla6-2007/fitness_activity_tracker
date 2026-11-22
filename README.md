@@ -32,7 +32,7 @@ The app brings everyday activity tracking into one place. Users can record worko
 
 ## Screenshots
 
-The screens below show the app UI. Personal account details, login entries, and recorded step values have been removed from the public screenshot copies.
+The screens below show the app UI. Names, email addresses, login entries, and personal step/progress values have been removed from the public screenshot copies.
 
 | Screen | Preview | What it shows |
 | --- | --- | --- |
