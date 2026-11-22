@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Fitness Activity Tracker",
+    "slug": "fitness-activity-tracker",
+    "scheme": "fitness-tracker",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "android.permission.health.READ_STEPS"
+      ],
+      "package": "com.anonymous.fitnessactivitytracker"
+    },
+    "plugins": [
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true
+        }
+      ],
+      "./plugins/with-health-connect-privacy",
+      "react-native-health-connect",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "minSdkVersion": 26
+          }
+        }
+      ]
+    ]
+  }
+}

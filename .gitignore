@@ -1,0 +1,38 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+workspace/.env
+workspace/.env.*
+!workspace/.env.example
+!workspace/apps/mobile/.env.example
+
+# Local project instructions and context
+AGENTS.md
+PROJECT_CONTEXT.md
+
+# Dependencies, generated builds, and IDE state
+**/node_modules/
+**/.idea/
+**/.gradle/
+**/.gradle-user/
+**/.build-tmp/
+**/.tools/
+**/.expo/
+workspace/apps/mobile/android/
+workspace/apps/mobile/ios/
+**/dist/
+**/coverage/
+
+# Logs and local signing material
+*.log
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+# Publish only screenshots without personal account details
+workspace/screenshots/*
+!workspace/screenshots/register page.jpeg
+!workspace/screenshots/reset password.jpeg

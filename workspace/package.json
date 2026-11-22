@@ -1,0 +1,17 @@
+{
+  "name": "fitness-activity-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:mobile": "npm run start --workspace @fitness-tracker/mobile",
+    "start:mobile:go": "npm run start:go --workspace @fitness-tracker/mobile",
+    "dev:api": "npm run dev --workspace @fitness-tracker/api",
+    "migrate": "npm run migrate --workspace @fitness-tracker/api"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
