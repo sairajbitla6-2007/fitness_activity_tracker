@@ -36,3 +36,8 @@ workspace/apps/mobile/ios/
 workspace/screenshots/*
 !workspace/screenshots/register page.jpeg
 !workspace/screenshots/reset password.jpeg
+!workspace/screenshots/login-page-public.jpeg
+!workspace/screenshots/home-dashboard-public.jpeg
+!workspace/screenshots/goals-tab-public.jpeg
+!workspace/screenshots/workouts-tab-public.jpeg
+!workspace/screenshots/profile-tab-public.jpeg

@@ -32,11 +32,17 @@ The app brings everyday activity tracking into one place. Users can record worko
 
 ## Screenshots
 
-The following demo screens use placeholder form data:
+The screens below show the app UI. Personal account details, login entries, and recorded step values have been removed from the public screenshot copies.
 
-| Create account | Password recovery |
-| --- | --- |
-| ![Create account screen](workspace/screenshots/register%20page.jpeg) | ![Password recovery screen](workspace/screenshots/reset%20password.jpeg) |
+| Screen | Preview | What it shows |
+| --- | --- | --- |
+| **Sign in** | ![Sign-in screen](workspace/screenshots/login-page-public.jpeg) | Existing-user login and password-recovery navigation. Entered account values are cleared. |
+| **Create account** | ![Create-account screen](workspace/screenshots/register%20page.jpeg) | Registration form with optional display name and account fields. |
+| **Password recovery** | ![Password-recovery screen](workspace/screenshots/reset%20password.jpeg) | Request a reset code or continue with a code already received. |
+| **Today dashboard** | ![Today dashboard](workspace/screenshots/home-dashboard-public.jpeg) | Daily steps card, step-history controls, and activity overview. Personal step values are removed. |
+| **Workouts** | ![Workouts screen](workspace/screenshots/workouts-tab-public.jpeg) | Workout history filters, activity-type selection, and the empty state. |
+| **Goals** | ![Goals screen](workspace/screenshots/goals-tab-public.jpeg) | Daily goal progress and controls to edit or pause a goal. Personal progress values are removed. |
+| **Profile** | ![Profile screen](workspace/screenshots/profile-tab-public.jpeg) | Profile preferences, data export, and the Android Health Connect section. Account details are removed. |
 
 ## Data
 
